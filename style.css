@@ -1,0 +1,102 @@
+/* 전체 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f6f8fb;
+    color: #202124;
+    font-family: "Noto Sans KR", "Segoe UI", sans-serif;
+}
+
+
+/* 메인 영역 */
+.box {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+
+/* 제목 */
+h1 {
+    background: linear-gradient(135deg, #ffffff, #eef4ff);
+    padding: 28px;
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 25px #0001;
+    font-size: 34px;
+}
+
+
+/* 검색 목록 */
+ul {
+    padding: 0;
+}
+
+
+li {
+    list-style: none;
+    margin: 15px 0;
+}
+
+
+li a {
+    display: block;
+    background: white;
+    padding: 22px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    color: #2563eb;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+
+li a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px #0002;
+}
+
+
+/* 문서 내용 */
+.content {
+    background: white;
+    margin-top: 25px;
+    padding: 35px;
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 25px #0001;
+    font-size: 18px;
+    line-height: 1.9;
+    min-height: 350px;
+}
+
+
+/* 일반 링크 */
+a {
+    color: #2563eb;
+}
+
+
+/* 편집 버튼 */
+body > a,
+.box > a {
+    display: inline-block;
+    margin-top: 25px;
+    background: #2563eb;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+body > a:hover,
+.box > a:hover {
+    background: #1d4ed8;
+}
